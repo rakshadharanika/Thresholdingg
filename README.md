@@ -39,9 +39,9 @@ import cv2
 ```
 ### Read the Image and convert to grayscale
 ```py
-image = cv2.imread("omp.jpg",1)
+image = cv2.imread("leaves.jpg",1)
 image = cv2.cvtColor(image,cv2.COLOR_BGR2RGB)
-image_gray = cv2.imread("omp.jpg",0)
+image_gray = cv2.imread("leaves.jpg",0)
 ```
 ### Use Global thresholding to segment the image
 ```py
